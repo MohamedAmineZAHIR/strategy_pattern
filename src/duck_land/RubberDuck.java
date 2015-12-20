@@ -1,14 +1,14 @@
 package duck_land;
 
-import behavior.FlyBehavior;
-import behavior.QuackBehavior;
+import behavior.FlyNoWay;
+import behavior.Squeak;
 
 public class RubberDuck extends Duck 
 {
 	
 	//  Constructor.
-	public RubberDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
-		super(flyBehavior, quackBehavior);
+	public RubberDuck() {
+		super(new FlyNoWay(), new Squeak());
 	}
 
 	

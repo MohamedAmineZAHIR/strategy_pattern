@@ -1,14 +1,15 @@
 package duck_land;
 
-import behavior.FlyBehavior;
-import behavior.QuackBehavior;
+
+import behavior.FlyWithWings;
+import behavior.Quack;
 
 public class MallardDuck extends Duck 
 {
 	
 	//  Constructor.
-	public MallardDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
-		super(flyBehavior, quackBehavior);
+	public MallardDuck() {
+		super(new FlyWithWings(), new Quack());
 	}
 
 	@Override
