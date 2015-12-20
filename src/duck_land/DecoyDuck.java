@@ -5,16 +5,15 @@
 
 package duck_land;
 
-import behavior.FlyBehavior;
-import behavior.QuackBehavior;
+import behavior.FlyNoWay;
+import behavior.MuteQuack;
 
 public class DecoyDuck extends Duck 
 {
 	
 	//  Constructor.
-	public DecoyDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
-		super(flyBehavior, quackBehavior);
-		// TODO Auto-generated constructor stub
+	public DecoyDuck() {
+		super(new FlyNoWay(), new MuteQuack());
 	}
 	
 	@Override

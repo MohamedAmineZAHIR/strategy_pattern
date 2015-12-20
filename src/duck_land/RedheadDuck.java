@@ -5,15 +5,15 @@
 
 package duck_land;
 
-import behavior.FlyBehavior;
-import behavior.QuackBehavior;
+import behavior.FlyWithWings;
+import behavior.Quack;
 
 public class RedheadDuck extends Duck 
 {
 	
 	//  Constructor.
-	public RedheadDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
-		super(flyBehavior, quackBehavior);
+	public RedheadDuck() {
+		super(new FlyWithWings(), new Quack());
 	}
 	
 	@Override
