@@ -4,7 +4,7 @@ public class MuteQuack implements QuackBehavior
 {
 	
 	@Override
-	public void quick() {
+	public void quack() {
 		System.out.println("Mute quack!");
 	}
 }

@@ -4,7 +4,7 @@ public class Squeak implements QuackBehavior
 {
 	
 	@Override
-	public void quick() {
+	public void quack() {
 		System.out.println("Squeak !");	
 	}
 }
