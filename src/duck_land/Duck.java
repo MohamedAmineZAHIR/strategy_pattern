@@ -1,3 +1,8 @@
+/**
+ * @date   20.12.2015
+ * @author Mohamed Amine ZAHIR.
+ */
+
 package duck_land;
 
 import behavior.FlyBehavior;
