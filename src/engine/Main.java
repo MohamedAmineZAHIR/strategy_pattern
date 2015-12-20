@@ -1,6 +1,7 @@
 package engine;
 
 
+import behavior.FlyWithWings;
 import duck_land.Duck;
 import duck_land.MallardDuck;
 import duck_land.RubberDuck;
@@ -19,6 +20,9 @@ public class Main {
 		rubber.performFily();
 		rubber.performQuack();
 		
+		//  RubberDuck flight behavior is changed dynamically. 
+		rubber.setFlyBehavior(new FlyWithWings());
+		rubber.performFily();
 
 	}
 
